@@ -530,7 +530,8 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"currentPoint","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"collider","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"detectionRan","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 4196180326463126067, guid: ae65b0b629745ca4ba04ce94cca7d29b, type: 3}
       propertyPath: _data._objectReferences.Array.size
@@ -682,11 +683,12 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"maxHealth","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"currentHealth","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"HealthDisplay","value":null,"typeHandle":{"Identification":"UnityEngine.UI.Image,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"visions","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 4529958780973156099, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4529958780973156099, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
@@ -696,6 +698,10 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[1]
       value: 
       objectReference: {fileID: 334005400}
+    - target: {fileID: 4529958780973156099, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
+      propertyPath: _data._objectReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 962064241}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -887,11 +893,12 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"maxHealth","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"currentHealth","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"HealthDisplay","value":null,"typeHandle":{"Identification":"UnityEngine.UI.Image,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"vision","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 4529958780973156099, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4529958780973156099, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
@@ -901,6 +908,10 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[1]
       value: 
       objectReference: {fileID: 379203987}
+    - target: {fileID: 4529958780973156099, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
+      propertyPath: _data._objectReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 475976233}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -987,11 +998,12 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"maxHealth","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"currentHealth","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"HealthDisplay","value":null,"typeHandle":{"Identification":"UnityEngine.UI.Image,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"vision","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 4529958780973156099, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4529958780973156099, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
@@ -1001,6 +1013,10 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[1]
       value: 
       objectReference: {fileID: 417489974}
+    - target: {fileID: 4529958780973156099, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
+      propertyPath: _data._objectReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 1329158467}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1121,6 +1137,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 452640385}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &475976233 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3305774040809982903, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
+  m_PrefabInstance: {fileID: 379203986}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &535713597
 GameObject:
   m_ObjectHideFlags: 0
@@ -7827,7 +7848,8 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"currentPoint","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"collider","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"detectionRan","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 4196180326463126067, guid: ae65b0b629745ca4ba04ce94cca7d29b, type: 3}
       propertyPath: _data._objectReferences.Array.size
@@ -8484,6 +8506,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 925071296}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &962064241 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3305774040809982903, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
+  m_PrefabInstance: {fileID: 334005399}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &964340304
 Mesh:
   m_ObjectHideFlags: 0
@@ -9260,6 +9287,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1263267007}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1329158467 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3305774040809982903, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
+  m_PrefabInstance: {fileID: 417489973}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1334050798
 GameObject:
   m_ObjectHideFlags: 0
@@ -10394,6 +10426,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1831363218}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1863210195 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3305774040809982903, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
+  m_PrefabInstance: {fileID: 2023630703}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1982337292
 GameObject:
   m_ObjectHideFlags: 0
@@ -10713,11 +10750,12 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"maxHealth","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"currentHealth","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"HealthDisplay","value":null,"typeHandle":{"Identification":"UnityEngine.UI.Image,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"vision","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 4529958780973156099, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4529958780973156099, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
@@ -10727,6 +10765,10 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[1]
       value: 
       objectReference: {fileID: 2023630704}
+    - target: {fileID: 4529958780973156099, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
+      propertyPath: _data._objectReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 1863210195}
     - target: {fileID: 5897459943181316884, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -10891,33 +10933,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 621780629}
     m_Modifications:
-    - target: {fileID: 1539893367693789578, guid: ae65b0b629745ca4ba04ce94cca7d29b, type: 3}
-      propertyPath: _data._json
-      value: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 1539893367693789578, guid: ae65b0b629745ca4ba04ce94cca7d29b, type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1539893367693789578, guid: ae65b0b629745ca4ba04ce94cca7d29b, type: 3}
-      propertyPath: _data._objectReferences.Array.data[0]
-      value: 
-      objectReference: {fileID: 11400000, guid: a9af254987f228f47bf5b25c62f38c4c, type: 2}
-    - target: {fileID: 4196180326463126067, guid: ae65b0b629745ca4ba04ce94cca7d29b, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"patrolPoints","value":{"$content":[1,2,3],"$type":"System.Collections.Generic.List`1[[UnityEngine.Transform,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.Transform,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"currentPoint","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"collider","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"detectionRan","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 4196180326463126067, guid: ae65b0b629745ca4ba04ce94cca7d29b, type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 4196180326463126067, guid: ae65b0b629745ca4ba04ce94cca7d29b, type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
@@ -10934,10 +10949,6 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[3]
       value: 
       objectReference: {fileID: 1442787228}
-    - target: {fileID: 4196180326463126067, guid: ae65b0b629745ca4ba04ce94cca7d29b, type: 3}
-      propertyPath: _data._objectReferences.Array.data[4]
-      value: 
-      objectReference: {fileID: 5727898686711282049}
     - target: {fileID: 7548641051195558445, guid: ae65b0b629745ca4ba04ce94cca7d29b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.8075867
@@ -10992,11 +11003,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7548641051195558445, guid: ae65b0b629745ca4ba04ce94cca7d29b, type: 3}
   m_PrefabInstance: {fileID: 5727898686711282047}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &5727898686711282049 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4994806296631428985, guid: ae65b0b629745ca4ba04ce94cca7d29b, type: 3}
-  m_PrefabInstance: {fileID: 5727898686711282047}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6330722820663253728
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11045,70 +11051,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4155918773921785610, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
-      propertyPath: _data._json
-      value: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 4155918773921785610, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4155918773921785610, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
-      propertyPath: _data._objectReferences.Array.data[0]
-      value: 
-      objectReference: {fileID: 11400000, guid: 7f073e220d6fb574abfecfd853dd4374, type: 2}
     - target: {fileID: 4399032520828397904, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
       propertyPath: m_Name
       value: Hunters
       objectReference: {fileID: 0}
     - target: {fileID: 4529958780973156099, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"collider","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"maxHealth","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"currentHealth","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"HealthDisplay","value":null,"typeHandle":{"Identification":"UnityEngine.UI.Image,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"vision","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 4529958780973156099, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4529958780973156099, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 1757954218}
-    - target: {fileID: 4529958780973156099, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
-      propertyPath: _data._objectReferences.Array.data[1]
-      value: 
-      objectReference: {fileID: 6330722820663253729}
-    - target: {fileID: 4529958780973156099, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
-      propertyPath: _data._objectReferences.Array.data[2]
-      value: 
-      objectReference: {fileID: 6330722820663253731}
-    - target: {fileID: 5897459943181316884, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
---- !u!1 &6330722820663253729 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4399032520828397904, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
-  m_PrefabInstance: {fileID: 6330722820663253728}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6330722820663253730 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2130924108998373604, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
-  m_PrefabInstance: {fileID: 6330722820663253728}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &6330722820663253731 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3305774040809982903, guid: a0f681d5710bf1f45ad2d745e77f44f1, type: 3}
   m_PrefabInstance: {fileID: 6330722820663253728}
   m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
